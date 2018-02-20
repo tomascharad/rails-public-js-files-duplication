@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+  <title>Sistema de Gestión de Causas | <%= Setting.find_by(code: 'courtName').value %></title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <link rel="shortcut icon" href="<%= Setting.find_by(code: 'loadingLogo').value %>">
+</head>
+    <div id="content">
+      <%= render partial: 'helpers/loading.html.erb' %>
+      <%= yield %>
+    </div>
+  <script src="<%= @common_chunk %>"></script>
+</html>

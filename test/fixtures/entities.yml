@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tax_number: MyString
+  name: MyString
+  address: MyString
+  entitificable_id: 
+  entitificable_type: Entitificable
+
+two:
+  tax_number: MyString
+  name: MyString
+  address: MyString
+  entitificable_id: 
+  entitificable_type: Entitificable

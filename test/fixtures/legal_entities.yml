@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  legal_agent_id: 
+  line_of_business: MyString
+
+two:
+  legal_agent_id: 
+  line_of_business: MyString

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  issue_date: 2015-12-03 19:17:05
+  teller_id: 
+  issuer_party_id: 
+  receiver_party_id: 
+
+two:
+  issue_date: 2015-12-03 19:17:05
+  teller_id: 
+  issuer_party_id: 
+  receiver_party_id: 
